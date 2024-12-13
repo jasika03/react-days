@@ -1,15 +1,11 @@
-import React, {useState} from 'react'
+import React from 'react'
 
-function Button(){
-  const handleclick = () =>{
-    alert('Hiiee');
-  }
-  
+function Status({ isLoggedIn }) {
   return (
     <div>
-      <button onClick={handleclick}>Click!!</button>
+      <h1>{isLoggedIn ? 'Welcome back!' : 'Please log in.'}</h1>
     </div>
   );
 }
-export default Button
+export default Status
 

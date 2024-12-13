@@ -1,10 +1,10 @@
 import React from 'react'
-import Button from './components/app'
+import Status from './components/app'
 
 const App = () => {
   return (
     <div>
-      <Button/>
+      <Status/>
     </div>
   )
 }
